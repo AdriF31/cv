@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="origin">
+    <meta name="viewport" content="user-scalable=no" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adri Fatwal Fiqhi</title>
+    <script src="https://kit.fontawesome.com/d7f2e2d45d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Space+Mono&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+
+    <header>
+            <nav class="navbar">
+                    <span class="navbar-toggle" id="js-navbar-toggle">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                    <a href="#" class="logo"></a>
+                    <ul class="main-nav" id="js-menu">
+                        <li>
+                            <a href="#about" class="nav-links">About</a>
+                        </li>
+                        <li>
+                            <a href="#education" class="nav-links">Education</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-links">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <script>
+                        let mainNav = document.getElementById('js-menu');
+                        let navBarToggle = document.getElementById('js-navbar-toggle');
+                    
+                        navBarToggle.addEventListener('click', function () {
+                        mainNav.classList.toggle('active');
+                        });
+                        </script>
+        <div class="wrapper">
+            <img src="assets/img/adri.jpg" alt="Adri Fatwal Fiqhi">
+            <h1>-ADRI FATWAL FIQHI-</h1>
+            <h2>College Student</h2>   
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="wrapper">
+            <h2>About Me</h2>
+            <P>Mahasiswa Tenik Informatika UIN Bandung angkatan 2017</P>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+            <div class="wrapper">
+                <h2>EDUCATION</h2>
+                <div class="wrapper-edu">               
+                    <!--edu list-->
+                    <div class="sd">
+                        <h3>2005-2011</h3>
+                        <img src="assets/img/sd.png" alt="SDN Cipeundeuy">
+                        <h4>SDN CIPEUNDEUY</h4>
+                    </div>
+                    <!--edu list-->
+                    <div class="mts">
+                        <h3>2011-2014</h3>
+                        <img src="assets/img/mts.png" alt="SDN Cipeundeuy">
+                        <h4>MTsN 4 MAJALENGKA</h4>
+                        </div>
+                        <!--edu list-->
+                    <div class="man">
+                        <h3>2014-2017</h3>
+                        <img src="assets/img/man1.jpg" alt="SDN Cipeundeuy">
+                        <h4>MAN 1 MAJALENGKA</h4>
+                        </div>
+                        <!--edu list-->
+                    <div class="uin">
+                        <h3>2017-Present</h3>
+                        <img src="assets/img/uin.png" alt="SDN Cipeundeuy">
+                        <h4>UIN SUNAN GUNUNG DJATI BANDUNG</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+                <div class="wrapper">
+                        <h2>CONTACT ME</h2>
+                        <div class="wrapper-contact">
+                            <form action="https://formspree.io/adrifatwa1@gmail.com" method="POST">
+                                <input type="text" placeholder="Name" name="nama lengkap">
+                                <input type="text" placeholder="E-mail" name="email">
+                                <textarea  id="" cols="30" rows="10" placeholder="Message" name="pesan"></textarea>
+                                <input type="SUBMIT"  value="Send">
+                            </form>
+                        </div>
+                        <br><br>
+                        <ul >
+                            <i><a href="https://www.facebook.com/adri.fatwa.3" class="fab fa-facebook fa-2x" ></a></i>
+                            <i><a href="https://www.instagram.com/adri_fatwa/?hl=en" class="fab fa-instagram fa-2x"></a></i>
+                            <i><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=adrifatwa1@gmail.com.com&tf=1" class="fas fa-envelope-square fa-2x"></a></i>
+                        </ul>
+                </div>
+        
+        
+            </section>
+
+    
+</body>
+</html>
